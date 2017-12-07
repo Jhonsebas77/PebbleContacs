@@ -85,16 +85,16 @@ static void menu_draw_row_callback(GContext* ctx, const Layer *cell_layer, MenuI
   switch (cell_index->section) {
 
         case 0:
-      switch (cell_index->row) { 
+      switch (cell_index->row) {
            case 0:
           // There is title draw for something more simple than a basic menu item
            menu_cell_basic_draw(ctx, cell_layer, "Sebastian Otalora", "(321) 720-9516", s_menu_icons9[s_current_icon1]);
         break;
- 
+
       }
       break;
     case 1:
-      switch (cell_index->row) { 
+      switch (cell_index->row) {
         case 0:
           menu_cell_basic_draw(ctx, cell_layer, "Julian Otalora", "(310) 494-2518", s_menu_icons2[s_current_icon1]);
           break;
@@ -107,13 +107,13 @@ static void menu_draw_row_callback(GContext* ctx, const Layer *cell_layer, MenuI
          case 3:
           menu_cell_basic_draw(ctx, cell_layer, "Daniela Gil", "(316) 342-3650", s_menu_icons1[s_current_icon1]);
           break;
- 
+
       }
       break;
     case 2:
       switch (cell_index->row) {
           case 0:
-        menu_cell_basic_draw(ctx, cell_layer, "Denny Segura", "(318) 247-4490", s_menu_icons8[s_current_icon1]);
+        menu_cell_basic_draw(ctx, cell_layer, "Denny -Segura", "(318) 247-4490", s_menu_icons8[s_current_icon1]);
         break;
         case 1:
          menu_cell_basic_draw(ctx, cell_layer, "Sebastian Ochoa", "(316) 877-5880", s_menu_icons8[s_current_icon1]);
@@ -161,7 +161,7 @@ static void menu_select_callback(MenuLayer *menu_layer, MenuIndex *cell_index, v
       s_current_icon7 = (s_current_icon7) % NUM_MENU_ICONS_MT7;
       s_current_icon8 = (s_current_icon8) % NUM_MENU_ICONS_MT8;
       s_current_icon9 = (s_current_icon9) % NUM_MENU_ICONS_MT9;
-        
+
   // After changing the icon, mark the layer to have it updated
       layer_mark_dirty(menu_layer_get_layer(menu_layer));
       break;
@@ -180,7 +180,7 @@ static void main_window_load(Window *window) {
   s_menu_icons7[0] = gbitmap_create_with_resource(RESOURCE_ID_ICON_DENNY);
   s_menu_icons8[0] = gbitmap_create_with_resource(RESOURCE_ID_ICON_8A);
   s_menu_icons9[0] = gbitmap_create_with_resource(RESOURCE_ID_ICON_SISTEMAS);
- 
+
 
   // And also load the background
   s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_BACKGROUND_BRAINS);
