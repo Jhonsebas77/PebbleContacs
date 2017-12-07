@@ -1,0 +1,106 @@
+{
+    "author": "Ota_Designs",
+    "dependencies": {},
+    "keywords": [],
+    "name": "contactos",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Contactos",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu_icon_big_watch.png",
+                    "name": "IMAGE_MENU_ICON_BIG_WATCH",
+                    "type": "png"
+                },
+                {
+                    "file": "images/menu_icon_binary_watch.png",
+                    "name": "IMAGE_MENU_ICON_BINARY_WATCH",
+                    "type": "png"
+                },
+                {
+                    "file": "images/brains_watch_background.png",
+                    "name": "IMAGE_BACKGROUND_BRAINS",
+                    "type": "png"
+                },
+                {
+                    "file": "images/Contactos_Contactos.png",
+                    "name": "Menu_Icon",
+                    "targetPlatforms": [
+                        "aplite",
+                        "diorite"
+                    ],
+                    "type": "png"
+                },
+                {
+                    "file": "images/Icon_Novia.png",
+                    "name": "ICON_NOVIA",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Icon_Padre.png",
+                    "name": "ICON_PADRE",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Icon_Madre.png",
+                    "name": "ICON_MADRE",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Icon_Hermana.png",
+                    "name": "ICON_HERMANA",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Icon_Fruti.png",
+                    "name": "ICON_FRUTI",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Icon_Jefe.png",
+                    "name": "ICON_BOSS",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/icon_Denny",
+                    "name": "ICON_DENNY",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/icon_8a.png",
+                    "name": "ICON_8A",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/icon_Sistemas",
+                    "name": "ICON_SISTEMAS",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "60842bcf-5eb2-4465-8588-07ef862acae8",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "2.0.0"
+}
