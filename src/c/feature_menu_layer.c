@@ -113,7 +113,7 @@ static void menu_draw_row_callback(GContext* ctx, const Layer *cell_layer, MenuI
     case 2:
       switch (cell_index->row) {
           case 0:
-        menu_cell_basic_draw(ctx, cell_layer, "Denny -Segura", "(318) 247-4490", s_menu_icons8[s_current_icon1]);
+        menu_cell_basic_draw(ctx, cell_layer, "Denny Segura", "(318) 247-4490", s_menu_icons8[s_current_icon1]);
         break;
         case 1:
          menu_cell_basic_draw(ctx, cell_layer, "Sebastian Ochoa", "(316) 877-5880", s_menu_icons8[s_current_icon1]);
